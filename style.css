@@ -1,0 +1,367 @@
+*{
+    margin : 0 ;
+    padding: 0 ; 
+    box-sizing: border-box ;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.nav-container-full{
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.217);
+    background-color: rgb(255, 255, 255);
+}
+.container-header{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.container-header .menu{
+    width: 45%;
+    height: 100%;
+    /* background-color: black; */
+    float: left;
+}
+
+.container-header .logo{
+    width: 20%;
+    height: 100%;
+    /* background-color: blue; */
+    float: left;
+}
+
+.container-header .search-area{
+    width: 35%;
+    height: 100%;
+    /* background-color: brown; */
+    float: left;
+}
+
+
+ ul{
+    list-style-type: none;
+    
+}
+
+ ul li{
+    float: left;
+}
+
+ ul li a{
+    display: block;
+    padding : 25px 15px ; 
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+ul li a:hover{
+    color: #00b3b3;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 60%;
+}
+
+
+/* From Uiverse.io by alexruix */ 
+.group {
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: relative;
+  max-width: 190px;
+  transform: translateY(10px);
+}
+
+.input {
+  height: 40px;
+  line-height: 28px;
+  padding: 0 1rem;
+  width: 100%;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #D9E8D8;
+  color: #0d0c22;
+  box-shadow: 0 0 5px #C1D9BF, 0 0 0 10px #f5f5f5eb;
+  transition: .3s ease;
+}
+
+.input::placeholder {
+  color: #777;
+}
+
+.icon {
+  position: absolute;
+  left: 1rem;
+  fill: #777;
+  width: 1rem;
+  height: 1rem;
+}
+
+.landing-page{
+    width: 80%;
+    height: 600px;
+    margin: 15px auto;
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.201)),
+    url("img/361_SS_Main_ZANDO\ \(2160x1066\)_banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.view-btn{
+    width: 300px;
+    height: 80px;
+    /* background-color: red; */
+    transform: translateY(-20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* From Uiverse.io by mrhyddenn */ 
+button {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 1px solid rgb(61, 106, 255);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background:rgb(61, 106, 255);
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+button:hover {
+  background: rgb(61, 106, 255);
+  box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+button:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+button::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+button:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+.logo-branding{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    /* background-color: black; */
+    margin-top: 20px;
+}
+
+
+.logo-brand{
+    width: 16.6%;
+    height: 100%;
+    float: left;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-brand img{
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.popular-product{
+    width: 80%;
+    margin-top: 20px;
+    margin: auto;
+   
+}
+.popular-product h1{
+    font-size: 30px;
+
+}
+
+.popular-product-container{
+    width: 100%;
+    height: 430px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+
+
+.card-item{
+    width: 24%;
+    height:100%;
+    background-color: rgb(231, 219, 219);
+}
+
+.card-item .image-product{
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+.image-product .discount{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+}
+.image-product img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.image-product img:hover{
+    transform: scale(1.1);
+}
+
+
+.card-item .product-infor{
+  width: 100%;
+  height: 10%;
+}
+
+.product-infor h4{
+  font-size: 15px;
+  transform: translate(10px, 10px );
+}
+
+.product-infor p{
+  font-size: 12px;
+  color: red;
+  transform: translate(10px, 10px );
+}
+
+.product-container-full{
+    width: 100%;
+    height: 500px;
+    /* background-color: green; */
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.brand-section{
+  width: 29%;
+  height: 100%;
+  float: left;
+  margin-right: 1%;
+}
+.brand-section img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-section{
+  width: 70%;
+  height: 100%;
+  float: left;
+  /* background-color: violet; */
+}
+
+.header-title{
+  width: 100%;
+  height: 15%;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.product-listing-card{
+  width: 100%;
+  height: 85%;
+  /* background-color: rgb(9, 179, 57); */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box-item-product{
+  width: 24.5%;
+  height: 100%;
+  /* background-color: blue; */
+}
+
+.image-product{
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
